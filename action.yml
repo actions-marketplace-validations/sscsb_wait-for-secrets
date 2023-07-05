@@ -1,4 +1,4 @@
-name: "github for secrets"
+name: "sscsb for secrets"
 description: "Publish from GitHub Actions using multi-factor authentication"
 inputs:
   secrets:
