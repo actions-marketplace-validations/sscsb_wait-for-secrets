@@ -1,0 +1,18 @@
+name: "github for secrets"
+description: "Publish from GitHub Actions using multi-factor authentication"
+inputs:
+  secrets:
+    description: "Secrets to fetch"
+    required: true
+  slack-webhook-url:
+    description: "Webhook URL to send link to"
+    required: false
+  wait-timeout:
+    description: "Timeout to input secrets in minutes"
+    default: "10"
+branding:
+  icon: "check-square"
+  color: "green"
+runs:
+  using: "node16"
+  main: "dist/index.js"
