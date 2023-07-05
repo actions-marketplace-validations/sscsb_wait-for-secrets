@@ -190,4 +190,4 @@ Here are a couple of workflows that use `wait-for-secrets`
 
 3. Where is the code for the SSCSB API?
 
-   `Wait-for-secrets` GitHub Action and the backend API it uses are open-source. The backend API is in the [https://github.com/sscsb/secure-workflows](https://github.com/sscsb/secure-workflows/tree/main/remediation/secrets) repository.
+   `Wait-for-secrets` GitHub Action and the backend API it uses are open-source. The backend API is in the [https://github.com/sscsb/secure-repo](https://github.com/sscsb/secure-repo/tree/main/remediation/secrets) repository.
