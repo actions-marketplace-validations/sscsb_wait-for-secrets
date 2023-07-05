@@ -1,0 +1,40 @@
+{
+    "name": "wait-for-secrets",
+    "version": "1.1.0",
+    "description": "Publish from GitHub Actions using multi-factor authentication",
+    "main": "index.js",
+    "scripts": {
+        "build": "ncc build src/index.ts --source-map",
+        "lint": "eslint src/**/*.ts",
+        "test": "jest --runInBand --detectOpenHandles --forceExit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sscsb/wait-for-secrets.git"
+    },
+    "keywords": [],
+    "author": "Md Sulaiman",
+    "license": "Apache License 2.0",
+    "bugs": {
+        "url": "https://github.com/sscsb/wait-for-secrets/issues"
+    },
+    "homepage": "https://github.com/sscsb/wait-for-secrets#readme",
+    "dependencies": {
+        "@actions/core": "^1.10.0",
+        "@actions/http-client": "^2.0.1",
+        "ts-node": "^10.9.1"
+    },
+    "devDependencies": {
+        "@types/jest": "^27.5.2",
+        "@types/node": "^18.11.18",
+        "@typescript-eslint/eslint-plugin": "^4.29.2",
+        "@typescript-eslint/parser": "^4.29.2",
+        "@vercel/ncc": "^0.36.0",
+        "eslint": "^7.32.0",
+        "eslint-config-google": "^0.14.0",
+        "jest": "^26.6.3",
+        "jest-junit": "^15.0.0",
+        "ts-jest": "^26.5.6",
+        "typescript": "^4.9.4"
+    }
+}
